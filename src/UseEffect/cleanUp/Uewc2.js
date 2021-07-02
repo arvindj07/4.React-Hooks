@@ -8,6 +8,7 @@ function Uewc2() {
         console.log('useEffect');
         document.title = `Clicked ${count} times`;
         //cleanUp
+        // Here, return function acts as ComponentWillUnmount
         return ()=>{
             alert(`I Will be called before the next useEffect is called' ${count}`)
         }
