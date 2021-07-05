@@ -6,7 +6,7 @@ function Infinite() {
         console.log('useEffect');
         let num = Math.random()*100;
         setCount(num)
-    },[])
+    },[]) // does infinite re-rendering if we remove []- dependency array
     const [count,setCount] =useState(0);
     return (
         <div>

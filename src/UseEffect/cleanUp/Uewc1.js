@@ -4,7 +4,7 @@ function Uewc1() {
     const [count,setCount] =useState(0);
     console.log('Render');
     // 1st variation of UseEffect
-    useEffect(()=>{
+    useEffect(()=>{ 
         console.log('useEffect');
         document.title = `Clicked ${count} times`;
         //cleanUp

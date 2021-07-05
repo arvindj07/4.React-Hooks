@@ -8,7 +8,7 @@ function Us() {
         // console.log(msgObj);
         // setMessage({...msgObj,message:val});
         let obj  = {...msgObj,message:val}; // create new-Object
-        setMessage(obj)
+        setMessage(obj)// update
         
     }
     return (
