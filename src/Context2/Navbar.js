@@ -9,7 +9,7 @@ function Navbar() {
     const navStyle = {
         height:'30vh',
         width:'90vw',
-        backgroundColor:`${value.theme=='Dark'?'black':'greys'}`,
+        backgroundColor:`${value.theme=='Dark'?'black':'grey'}`,
         margin: '0 auto',
         marginTop:'5%'
     }
